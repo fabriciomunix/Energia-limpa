@@ -1,0 +1,19 @@
+footer {
+    background-color: $text-color;
+    color: #fff;
+    padding: $spacing-unit;
+  
+    a {
+      color: lighten($primary-color, 20%);
+      text-decoration: none;
+  
+      &:hover {
+        color: lighten($primary-color, 40%);
+      }
+    }
+  
+    p {
+      margin: 0;
+    }
+  }
+  

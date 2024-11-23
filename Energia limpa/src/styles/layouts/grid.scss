@@ -1,0 +1,17 @@
+.grid {
+    display: grid;
+    gap: $spacing-unit;
+  
+    &--2-cols {
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    &--3-cols {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  
+    @media (min-width: 768px) {
+      gap: $spacing-unit * 2;
+    }
+  }
+  

@@ -1,0 +1,18 @@
+input, textarea, select {
+    width: 100%;
+    padding: $spacing-unit;
+    border: 1px solid lighten($text-color, 40%);
+    border-radius: 4px;
+    font-size: $base-font-size;
+    margin-bottom: $spacing-unit;
+  
+    &:focus {
+      border-color: $primary-color;
+      outline: none;
+    }
+  }
+  
+  button {
+    @extend .btn;
+  }
+  
